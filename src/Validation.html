@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<input id = "numb">
+<button type = "button" onclick = "isnumber()">submit</button>
+<p>input should be number and between 1 to 10</p>
+<p id = "demo"></p>
+<script>
+ function isnumber(){
+	let x = document.getElementById("numb").value;
+	let text;
+	if(isNaN(x) || x<1 || x>10){
+		text = "you are not welcome";
+	}
+	else{
+		
+		text = "you are welcome";
+	}
+	 document.getElementById("demo").innerHTML = text;
+	 
+ }
+</script>
+</body>
+</html>

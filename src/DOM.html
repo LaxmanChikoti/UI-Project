@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2> DOM MODEL</h2>
+        <p id = "Demo1"> Finding Elements by ID</p>
+        <p> Finding Elements by Tag</p>
+        <p class = "Demo2"> Finding Elements by Class</p>
+
+        <p id = "D1"></p>
+        <p id = "D2"></p>
+        <p id = "D3"></p>
+        <script>
+            const a = document.getElementById("Demo1");
+            const b = document.getElementsByTagName("p");
+            const c = document.getElementsByClassName("Demo2");
+
+            document.getElementById("D1").innerHTML = "Java Script" + a.innerHTML;
+            document.getElementById("D2").innerHTML = "Python" + b.innerHTML;
+            document.getElementById("D3").innerHTML = "DataScience" + c.innerHTML;
+    
+        </script> 
+
+    </body>
+</html>

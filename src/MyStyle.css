@@ -1,0 +1,32 @@
+@CHARSET "ISO-8859-1";
+h2{
+	background-color: aqua;
+	text-shadow: 2px 2px;
+	text-transform: uppercase;
+	font-family: cursive;
+	font-size: 40px;
+}
+/*Unvisited Link*/
+a:link{
+	color: blue;
+	text-decoration:underline;
+	background-color: gray;
+}
+/*visited Link*/
+a:visited{
+	color: red;
+	text-decoration: dashed;
+	background-color: white; 
+}
+/*Mouse Over a  Link*/
+a:hover{
+	color: purple;
+	text-decoration: dotted;
+	background-color: lime;
+}
+/*Selected  Link */
+a:active{
+	color: maroon;
+	text-decoration: blink;
+	background-color: olive;
+}

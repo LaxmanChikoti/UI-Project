@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function validateform(){
+                var name = document.Loginform.name.value;
+                var password = document.Loginform.password.value;
+                if(name == null || name == ""){
+                    alert("Name can't be blank");
+                }
+                else if (password.length <6){
+                    alert("password must be at least 6 characters long..");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <form name = "Loginform" onsubmit = "validateform()">
+  Name: <input type = "text" name = "name"><br>
+					
+					
+					
+            Password: <input type = "password" name = "password"><br>
+           
+    
+   <!--  <a href= "file:///C:/Users/Dell/workspace/UserInterface/src/ProjectHome.html"
+					target="_blank"> <input type = "submit" value = "Login"></a> -->
+					
+					
+					  <a href= "file:///C:/Users/Dell/workspace/UserInterface/src/ProjectHome.html"
+					target="_blank"><input type = "submit" value = "Login"></a>
+					
+					
+        </form>
+    </body>
+</html>
